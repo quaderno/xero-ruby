@@ -43,6 +43,7 @@ module XeroRuby::Accounting
     CAD ||= "CAD".freeze
     CDF ||= "CDF".freeze
     CHF ||= "CHF".freeze
+    CLF ||= "CLF".freeze
     CLP ||= "CLP".freeze
     CNY ||= "CNY".freeze
     COP ||= "COP".freeze
@@ -146,10 +147,13 @@ module XeroRuby::Accounting
     SEK ||= "SEK".freeze
     SGD ||= "SGD".freeze
     SHP ||= "SHP".freeze
+    SKK ||= "SKK".freeze
+    SLE ||= "SLE".freeze
     SLL ||= "SLL".freeze
     SOS ||= "SOS".freeze
     SPL ||= "SPL".freeze
     SRD ||= "SRD".freeze
+    STD ||= "STD".freeze
     STN ||= "STN".freeze
     SVC ||= "SVC".freeze
     SYP ||= "SYP".freeze
@@ -170,6 +174,7 @@ module XeroRuby::Accounting
     UYU ||= "UYU".freeze
     UZS ||= "UZS".freeze
     VEF ||= "VEF".freeze
+    VES ||= "VES".freeze
     VND ||= "VND".freeze
     VUV ||= "VUV".freeze
     WST ||= "WST".freeze
@@ -180,8 +185,8 @@ module XeroRuby::Accounting
     XPF ||= "XPF".freeze
     YER ||= "YER".freeze
     ZAR ||= "ZAR".freeze
-    ZMW ||= "ZMW".freeze
     ZMK ||= "ZMK".freeze
+    ZMW ||= "ZMW".freeze
     ZWD ||= "ZWD".freeze
     EMPTY_CURRENCY ||= "".freeze
 
